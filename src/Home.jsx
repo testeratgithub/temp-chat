@@ -8,7 +8,7 @@ function Home(){
         <>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-            <a className="navbar-brand" href="https://livewirenamakkal.com/"><img src="temp-chat/logo.jpg" alt="LiveWire Namakkal" /></a>
+            <a className="navbar-brand" href="https://livewirenamakkal.com/"><img src="logo.jpg" alt="LiveWire Namakkal" /></a>
         </div>
         </nav>
 
