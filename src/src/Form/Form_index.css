@@ -1,0 +1,17 @@
+.form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content{
+    text-align: center;
+}
+
+.form-btn{
+    font-size: 1.5em;
+    width: 10em;
+    padding: 10px;
+}

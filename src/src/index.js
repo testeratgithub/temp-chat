@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM  from "react-dom/client";
 
 
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 import Home from "./Home";
@@ -13,7 +13,7 @@ import Form_index from "./Form/Form_Index";
 
 function HomePage(){
     return(
-        <HashRouter>
+        <BrowserRouter>
         <Routes>
             <Route path="/" element={<Home/>}>
                 <Route index element={<Form_index/>} />
@@ -22,7 +22,7 @@ function HomePage(){
             </Route>
             <Route path="app" element={<DirectChatPage/>} />
         </Routes>
-        </HashRouter>
+        </BrowserRouter>
     )
 }
 
