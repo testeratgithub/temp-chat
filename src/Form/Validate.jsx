@@ -14,7 +14,7 @@ function Validate(props){
         if (props.username !== ""){
             const options = {
                 method: 'POST',
-                url: 'http://localhost:5000/checkuser',
+                url: 'https://chat-server-uwwa.onrender.com/checkuser',
                 headers: {'Content-Type': 'text/plain'},
                 data: props.username
               };

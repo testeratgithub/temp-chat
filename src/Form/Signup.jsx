@@ -26,7 +26,7 @@ function Signup(){
     function on_sub(){
         const options = {
             method: 'POST',
-            url: 'http://localhost:5000/signup',
+            url: 'https://chat-server-uwwa.onrender.com/signup',
             headers: {'Content-Type': 'text/plain'},
             data: {"name":Username,"pass":Password,"con_pass":Conpassword,"mail":Email,"fn":Firstname,"ln":Lastname}
           };

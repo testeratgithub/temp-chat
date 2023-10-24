@@ -13,7 +13,7 @@ function Login(){
     let log = ()=>{
         const options = {
             method: 'POST',
-            url: 'http://localhost:5000/checklogin',
+            url: 'https://chat-server-uwwa.onrender.com/checklogin',
             headers: {'Content-Type': 'text/plain'},
             data: {"name":Username,"pass":Password}
           };
