@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import axios from "axios";
 import './signup.css'
-import { useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 
 function Login(){
     const navigate = useNavigate()
@@ -34,7 +34,14 @@ function Login(){
     if (Redirect){
         navigate("/app")
     }
+    
+    let user = localStorage.getItem('temp_chat')
+	user = JSON.parse(user)
 
+	if(user != null){
+        return( <Navigate to="/app" />)
+    }
+    else{
     return(
         <>
         <div className="login">
@@ -57,6 +64,7 @@ function Login(){
         </div>
         </>
     )
+    }
 }
 
 export default Login
