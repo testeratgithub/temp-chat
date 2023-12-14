@@ -42,7 +42,7 @@ const DirectChatPage = () => {
 			width='100vw'
 			userName={user.user}
 			userSecret={user.pass}
-			projectID='c1e2a533-00b3-4b30-8a7d-ca214dd5bbb7'
+			projectID='b592981a-730c-4896-87e2-804a88fbf6a9'
 			renderNewChatForm={(creds) => renderChatForm(creds)}
 		/>
 	)
